@@ -54,10 +54,6 @@ public class LoginfxmlController implements Initializable {
         button.setOnAction(e -> tryToLogin());
         username.setOnAction(e -> tryToLogin());
         password.setOnAction(e -> tryToLogin());
-        
-        //DEBUG
-        username.setText("admin");
-        password.setText("openit");
     }
     
     private void resetTextFields() {
